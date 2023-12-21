@@ -55,6 +55,7 @@ if __name__ == '__main__':
     print("num?", end=" ")
     num = int(input()) #4
     print("clause?", end=" ")
+    print()
     clause = int(input()) #4
     operators = clause - 1
     bracket_array_pattern: list[tuple] = list(permutations([ i for i in range(operators) ]))
